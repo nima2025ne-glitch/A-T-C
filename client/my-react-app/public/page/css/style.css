@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "lale";
+    src: url(assets/Lalezar-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "vazir";
+    src: url(assets/Vazir-Bold-FD-WOL.ttf);
+}
+
+.form-label{
+    font-family: lale;
+}
+
+.form-control{
+    font-family: vazir;
+}
+
+.alert{
+    font-family: vazir;
+}

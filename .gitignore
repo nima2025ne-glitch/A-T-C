@@ -1,0 +1,4 @@
+node_modules
+.env
+client/my-react-app/node_modules
+client/my-react-app/build

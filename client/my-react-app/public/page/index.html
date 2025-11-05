@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" dir="rtl">
+    <head>
+        <title>Sign up</title>
+        <link rel="icon" type="image/png" href="o.png">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="viewport-fit=cover,width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+        </a>
+    </head>
+    <body>
+        <br>
+        <br><br>
+        <div style="margin-right: 25%; text-align: center;">
+            <form>
+                <div class="mb-3" style="width: 65%;">
+                    <label for="Username" class="form-label">نام کاربری</label>
+                    <input type="text" class="form-control" id="Username">
+                    <p id="usernamealert" class="alert"></p>
+                </div>
+                <div class="mb-3" style="width: 65%;">
+                    <label for="email" class="form-label">آدرس ایمیل</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                    <p id="emailalert" class="alert"></p>
+                </div>
+                <div class="mb-3" style="width: 65%;">
+                    <label for="pass" class="form-label">رمز عبور</label>
+                    <input type="password" class="form-control" id="pass">
+                    <p id="passalert" class="alert"></p>
+                </div>
+                <div class="mb-3" style="width: 65%;">
+                    <label for="c-pass" class="form-label">تایید رمز عبور</label>
+                    <input type="password" class="form-control" id="c-pass">
+                    <p id="cpassalert" class="alert"></p>
+                </div>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+    <a href="html/hint.html" style="display: block; margin-bottom: 10px;">راهنما</a>
+    <a href="http://localhost:5173/" style="display: block;">حساب دارید؟ وارد شوید</a>
+    <br>
+</div>
+                <button type="button" class="btn btn-primary" style="display: block; margin: 0 auto;" onclick="standard(event)">Submit</button>
+              
+            </form>
+        </div>
+        <br>
+        <script src="js/script.js"></script>
+    </body>
+</html>
